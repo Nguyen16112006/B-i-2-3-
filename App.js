@@ -50,7 +50,7 @@ export default function App() {
       isValid = false;
     } else if (!mssvPattern.test(mssv.trim())) {
       setMssvError(
-        'MSSV phải có dạng B + 2 chữ cái + năm từ 22 đến 26 + 4 chữ số. Ví dụ: BIT246755'
+        'MSSV không hợp lệ. Ví dụ: BIT24675'
       );
       isValid = false;
     } else {
