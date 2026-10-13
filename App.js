@@ -238,7 +238,7 @@ export default function App() {
                       ? styles.inputError
                       : null,
                   ]}
-                  placeholder="Nhập MSSV, ví dụ: BIT246755"
+                  placeholder="Nhập MSSV, ví dụ: BIT240173"
                   placeholderTextColor="#999999"
                   value={mssv}
                   autoCapitalize="characters"
@@ -269,7 +269,7 @@ export default function App() {
             {/*PHẦN DƯỚI*/}
             <View style={styles.bottomContainer}>
               <Text style={styles.footer}>
-                Chu Thị Minh Hạnh - BIT246755
+                Trần Đức Nguyên - BIT240173
               </Text>
 
               <TouchableOpacity

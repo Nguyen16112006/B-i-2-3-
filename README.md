@@ -1,6 +1,19 @@
-# PTUDDD-Bai3
+# PTUDDD-Bai2
 
-<img width="828" height="1719" alt="IMG_4613" src="https://github.com/user-attachments/assets/c55fab98-38cc-4b44-8289-d90b28425eda" />
+Ứng dụng React Native (Expo) gồm 2 màn hình: nhập thông tin sinh viên (UserName, MSSV) và hiển thị lại thông tin ở Screen 2.
 
-<img width="828" height="1724" alt="IMG_4614" src="https://github.com/user-attachments/assets/bc67d8b4-4235-4b63-b9f4-6091612747ca" />
+## Giao diện
 
+### Màn hình chính
+<img src="screenshots/screen1.png" width="300" alt="Màn hình chính" />
+
+### Screen 2
+<img src="screenshots/screen2.png" width="300" alt="Screen 2" />
+
+## Cách chạy
+
+```bash
+npm install
+npx expo start
+```
+Quét mã QR bằng Expo Go trên điện thoại.
